@@ -17,10 +17,10 @@
 double Ld[4] = {0, 1/3.0, 2/3.0, 1};
 
 /*the fuzzy rules
- *Z is the 1
- ×S is the 2
- *M is the 3
- *L is the 4
+ *Z is the 0
+ ×S is the 1
+ *M is the 2
+ *L is the 3
  */
 int rule[5][3] = {{0,1,2},{1,2,2},{2,2,3},{1,2,2},{0,1,2}};
 
